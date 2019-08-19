@@ -4,12 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
       <div><h1>{{pageTitle}}</h1>
-          <div>My First Component</div>
+          <app-products></app-products>
       </div>
   `
   // templateUrl: './app.component.html',
   // styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pageTitle: string = 'Acme Product Management';
+  pageTitle= 'Acme Product Management';
 }
